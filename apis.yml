@@ -1,19 +1,43 @@
 aid: riskmethods
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riskmethods.png
 name: riskmethods
-description: riskmethods is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: riskmethods was a supply-chain risk management SaaS company (Munich, Germany) that helped
+  enterprises monitor, assess, and mitigate risk across their supplier networks using AI-driven risk
+  intelligence, supplier monitoring, and disruption alerting. Backed by Point Nine Capital, riskmethods
+  was acquired by Sphera in 2022 and its product now lives inside Sphera's Supply Chain Risk Management
+  suite; the former riskmethods.net domain 301-redirects to sphera.com. riskmethods did not publish a
+  public developer portal, OpenAPI definition, SDKs, or discovery endpoints, so this profile carries the
+  identity and a probed domain-security posture rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/riskmethods/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - point-nine
+x-acquired-by: sphera
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Supply Chain
+- Supply Chain Risk Management
+- Risk Management
+- Procurement
+- Supplier Intelligence
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/riskmethods-domain-security.yml
 - type: Website
-  url: http://www.riskmethods.net
+  url: https://www.riskmethods.net
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
