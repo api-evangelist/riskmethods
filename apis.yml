@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.riskmethods.net', status: 301, note: 'declared website redirects to https://sphera.com/ — a different registrable domain (riskmethods.net -> sphera.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/riskmethods.png
 name: riskmethods
 description: riskmethods was a supply-chain risk management SaaS company (Munich, Germany) that helped
